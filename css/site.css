@@ -1,0 +1,45 @@
+   .Table
+    {
+        display: table;
+        width: 50%;
+        border: 1px solid black;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .Title
+    {
+        display: table-caption;
+        text-align: center;
+        font-weight: bold;
+        font-size: larger;
+    }
+    .Heading
+    {
+        display: table-row;
+        font-weight: bold;
+        text-align: center;
+        background-color: #99ccff;
+        color: navy;
+    }
+    .Row
+    {
+        display: table-row;
+    }
+    .Cell
+    {
+        display: table-cell;
+        border: none;
+        /*border-width: thin;*/
+        padding-left: 0px;
+        padding-right: 0px;
+        width: 50%;
+    }
+	
+	.txt {
+		
+		background-color: #FEFFB0;
+        font-weight: bold;
+        text-align: right;
+        position: right;
+    }
+	

@@ -1,0 +1,79 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+	<link href="css/site.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+	
+    <div id="dvTable" align="center">
+		<div id="tBody">
+			
+		</div>
+	    <input type="button" id = "btnOpenInputForm" value="Input Data" />
+    </div>
+
+    <hr/>
+    <form>
+    	<div align="center">
+    		<div class="Table" id="ActivityTable">
+				<div class="Row">
+					<div class="Cell">
+						<label>Activity Name:</label>
+					</div>
+					<div class="Cell"> 
+						<input class="txt" id="ActivityName" type="text" name="txt"> 
+					</div>
+				</div>
+				<div class="Row">
+					<div class="Cell">
+						<label>Activity Type:</label> 
+					</div>
+					<div class="Cell">
+						<input class="txt" id="ActivityType" type="text" name="txt">
+					</div>
+				</div>
+				<div class="Row">
+					<div class="Cell">
+						<label>Date:</label> 
+					</div>
+					<div class="Cell">
+						<input class="txt" id="Date" type="text" name="txt">
+					</div>
+				</div>
+				<div class="Row">
+					<div class="Cell">
+						<label>Time:</label>
+					</div>
+					<div class="Cell">
+						<input class="txt" id="Time" type="text" name="txt">
+					</div>
+				</div>
+				<div class="Row">
+					<div class="Cell">
+						<label>Distance:</label>
+					</div>
+					<div class="Cell">
+						<input class="txt" id="Distance" type="text" name="txt">
+					</div>
+				</div>
+				<div class="Row">
+					<div class="Cell">
+						<label>Calories:</label>
+					</div>
+					<div class="Cell">
+						<input class="txt" id="Calories" type="text" name="txt">
+					</div>
+				</div>
+				<div class="Row">
+					<input type="button" id="btnAddData" value="Submit"/><input type="button" id="btnCancel" value="Cancel"/>
+				</div>
+    		</div>		
+    	</div>
+
+
+    </form>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="javascript/TableData.js"></script>
+</body>
+</html>
